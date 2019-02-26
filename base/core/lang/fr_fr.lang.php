@@ -1,0 +1,4 @@
+<?php
+	// ADD LANGUAGES
+
+?>
