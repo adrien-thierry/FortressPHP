@@ -1,0 +1,16 @@
+<FilesMatch "\.(js|css)$">
+  <IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresDefault "access plus 7 days"
+  </IfModule>
+  FileETag MTime Size
+</FilesMatch>
+
+Options -Indexes
+
+ErrorDocument 400 ?e=400
+ErrorDocument 401 ?e=401
+ErrorDocument 402 ?e=402
+ErrorDocument 403 ?e=403
+ErrorDocument 404 ?e=404
+ErrorDocument 500 ?e=500

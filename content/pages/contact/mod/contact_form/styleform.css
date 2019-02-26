@@ -1,0 +1,71 @@
+.encadre
+{
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	background-color: white;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-icab-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.interieur
+{
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+}
+
+body
+{
+	background-image: url("images/fond.png");
+	width: 800px;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	color: #0b4c10;
+	font-style: italic;
+}
+
+.rouge
+{
+	color:red;
+}
+
+.vert
+{
+	color:green;
+}
+
+.copy
+{
+	color: white;
+	font-size: 90%;
+}
+
+.blanc
+{
+	color: white;
+}
+
+label
+{
+	font-weight: bold;
+}
+
+/* bouton */
+/*
+input[type=submit], input[type=reset]
+{
+	background-image:url("images/button.png");
+}
+*/

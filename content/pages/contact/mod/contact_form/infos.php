@@ -1,0 +1,1 @@
+<?php $email = 'email@domain.com'; $site = 'Your Site'; $lang = 'en';
